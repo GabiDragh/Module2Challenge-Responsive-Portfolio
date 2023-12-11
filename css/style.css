@@ -90,12 +90,30 @@ width: 100%;
 height: auto;
 }
 
+/*About Me section*/
 
-@media only screen and (max-width: 1000px) {
-  #navigation {
-   display: none;
-  }
-  .icons {
-    margin-left: auto;
-  }
+.aboutme-column {
+  display: flex;
+  height: auto;
+  justify-content: center;
+  align-items: center;
 }
+
+.aboutme {
+  width: 25%;
+  text-align: center;
+  padding-right: 30px;
+  border-right: 2px solid #e4bd3c;
+}
+
+/*#vl1 {
+  border-right: solid #e4bd3c;
+  height: 200px;
+  width: 5%;
+}*/
+
+.aboutme-description {
+  width: 75%;
+  padding-left: 50px;
+}
+

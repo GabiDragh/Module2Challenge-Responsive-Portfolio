@@ -18,3 +18,6 @@ https://www.freepik.com/free-photo/gradient-dark-blue-futuristic-digital-backgro
 --secondary: #f6f2db;
 --accent: #e4bd3c;
 
+https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_two_columns_unequal flex code
+
+text generator https://www.loremipzum.com/en/text-generator

@@ -12,22 +12,22 @@
 <body>
   <!-- main logo / nav -->
   <header>
-    <h1>Gabriela Draghici</h1>
-    <nav class="header-ul">
-      <ul>
-        <li><a href="#About-me">About Me</a></li>
-        <li><a href="#Work">Work</a></li>
-        <li><a href="#Contact-Me">Contact Me</a></li>
-        <li><a href="#Resume">Resume</a></li>
+    <h1>Gabriela Draghici</h1> <!--header 1 added-->
+    <nav class="header-ul"> <!--header navigation menu added-->
+      <ul> 
+        <li><a href="#About-me">About Me</a></li> <!--Links to About Me section of the page-->
+        <li><a href="#Work">Work</a></li> <!--Links to Work section of the page-->
+        <li><a href="#Contact-Me">Contact Me</a></li> <!--Links to Contact Me section of the page-->
+        <li><a href="#">Resume</a></li> <!--Placeholder for resume link-->
       </ul>
     </nav>
   </header>
 
   <!-- hero banner -->
-  <section class="hero-banner">
+  <section class="hero-banner"> <!--Banner section added-->
     <div id="hello-world-image" class="hero-banner-area">
       <h2 id="frontEnd">Front-end Developer</h2>
-      <img id="banner" src="./images/gradient-dark-blue-futuristic-digital-background.jpg">
+      <img id="banner" src="./images/gradient-dark-blue-futuristic-digital-background.jpg" alt="White dots connected by white lines on a celestial futuristic shades of blue background"> <!--alt property added to the image for search engine optimisation and user accessibility-->
     </div>
   </section>
 
@@ -36,18 +36,29 @@
   <main class="page-wrapper">
 
     <!-- about me -->
-    <section class="page-section" id="about">
-      <h3>About Me</h3>
-      <p>Section with a description about me</p>
+    <section class="aboutme-column" id="About-me"> <!--Id name changed to anchor the header section-->
+      <div class="aboutme">
+        <div class="text">
+          <h2>About Me</h2>
+        </div>
+      </div>
+
+      <div class="vl1"></div>
+
+      <div class="aboutme-description">
+        <div class="text">
+          <p>A ratione nostrum et fugit repellendus et exercitationem obcaecati ab officia sunt aut magnam tempora. Est corrupti pariatur ea alias quae rem magnam molestiae cum veritatis voluptas qui molestiae culpa et sapiente sint id Quis iure! Ut obcaecati eius qui velit beatae eos modi saepe. </p><p>Quo dignissimos temporibus qui quos nisi et odit reprehenderit ad praesentium magnam. Et quas fugit ea facilis delectus non reprehenderit distinctio qui libero distinctio qui quia sequi? Ut ipsum voluptatum est quia voluptatem vel numquam consequuntur et error ratione. </p>
+        </div>
+      </div>
     </section>
 
     <!-- portfolio container -->
-    <section class="page-section" id="work">
+    <section class="work-column" id="Work"> <!--Id name changed to anchor the header section-->
       <h3>Work</h3>
     </section>
 
     <!-- contact -->
-    <section class="page-section contact" id="contact">
+    <section class="contact-column" id="Contact-Me"> <!--Id name changed to anchor the header section-->
       <h3>Contact Me</h3>
     </section>
   </main>

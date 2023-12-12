@@ -9,23 +9,13 @@ body {
   line-height: 1.5;
 }
 
-/*h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 0;
-}
 
-p {
-  margin: 0;
-}*/
+/* Header section*/
 
 header {
   padding: 1px;
-  background-color: #152158; opacity: 0.85;
-  color: #e4bd3c;
+  background-color: #e8eaf1; opacity: 0.9;
+  color: #152158;
   display: flex;
   justify-content: space-between;
 }
@@ -39,26 +29,26 @@ header h1 {
 nav ul li {
   display: inline-flex;
   justify-content: end;
-  color: #e4bd3c;
+  color: #152158;
  /* align-content: center;*/
   margin-right: 25px;
   padding-top: 20px;
 }
 
 a {
-  color: #f6f2db;
+  color: #152158;
   background-color: transparent;
   text-decoration: underline;
 }
 
-a:visited {
-  color: #e4bd3c;
+a:visited { /*Visited links left in a different color so that Resume tab pops up and to remember to add the link to it*/
+  color: #506ce9;
   background-color: transparent;
   text-decoration: underline;
 }
 
 a:hover {
-  color: #e8eaf1;
+  color: blueviolet;
   background-color: transparent;
   text-decoration: underline;
 }
@@ -69,14 +59,11 @@ a:active {
   text-decoration: underline;
 }
 
-h2 {
-
-}
 
 #frontEnd {
 color: #152158;
 background-color: #e8eaf1; opacity: 0.8;
-border-bottom: 5px solid #152158;
+border-bottom: 8px solid #152158;
 position: absolute;
 right: 50px;
 top: 380px;
@@ -97,6 +84,7 @@ height: auto;
   height: auto;
   justify-content: center;
   align-items: center;
+  padding: 20px;
 }
 
 .aboutme {
@@ -114,6 +102,138 @@ height: auto;
 
 .aboutme-description {
   width: 75%;
-  padding-left: 50px;
+  padding-left: 30px;
+}
+
+/*Work section*/
+
+.work-column {
+  display: flex;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.work {
+  width: 25%;
+  text-align: center;
+  padding-right: 30px;
+  border-right: 2px solid #e4bd3c;
+}
+
+.projects {
+  width: 75%;
+  padding-left: 30px;
+}
+
+
+.workGridArea {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 2px;
+  display: grid;
+  align-content: end;
+  cursor: pointer;
+}
+
+
+#workGrid {
+  padding-left: 30px;
+  height: 870px;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 50% 50%;
+  grid-template-areas: 
+  "project1 project1"
+  "project1 project1"
+  "project2 project3"
+  "project4 project5"
+  ;
+  grid-gap: 10px;
+}
+
+#project1 {
+  grid-area: project1;
+  background-image: url(../images/project1-Horiseon.png);
+  width: 100%;
+  height: 100%;
+}
+
+#project2 {
+  grid-area: project2;
+  background-image: url(../images/CSS.jpg);
+  width: 100%;
+  height: 100%;
+}
+
+#project3 {
+  grid-area: project3;
+  background-image: url(../images/bootstrap.png);
+  width: 100%;
+  height: 100%;
+}
+
+#project4 {
+  grid-area: project4;
+  background-image: url(../images/javascript.jpg);
+  width: 100%;
+  height: 100%;
+}
+
+#project5 {
+  grid-area: project5;
+  background-image: url(../images/java-objects.png);
+  width: 100%;
+  height: 100%;
+}
+
+#heading {
+  color: #152158;
+  background-color: #e8eaf1; opacity: 0.8;
+  border-bottom: 4px solid #152158;
+  position: relative;
+  /*right: auto;*/
+  bottom: 1px;
+  padding: 7px;
+  max-width: 85%;
+  z-index: 100;
+}
+
+#heading h4 {
+  font-weight: bold;
+  margin: 0px 0px;
+}
+
+#heading p {
+  max-width: 300px;
+  font-size: 15px;
+  font-weight: 400;
+  margin: 0px 0px;
+}
+
+/*Contact section*/
+
+.contact-column {
+  display: flex;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.contactme {
+  width: 25%;
+  text-align: center;
+  padding-right: 30px;
+  border-right: 2px solid #e4bd3c;
+}
+
+.contact-ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 75%;
+  padding-left: 30px;
 }
 

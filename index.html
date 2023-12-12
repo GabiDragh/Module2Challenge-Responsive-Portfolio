@@ -43,7 +43,7 @@
         </div>
       </div>
 
-      <div class="vl1"></div>
+      <!--<div class="vl1"></div> Vertical line style attemped for About me flex column but not responding as expected--> 
 
       <div class="aboutme-description">
         <div class="text">
@@ -54,12 +54,70 @@
 
     <!-- portfolio container -->
     <section class="work-column" id="Work"> <!--Id name changed to anchor the header section-->
-      <h3>Work</h3>
+      <div class="work">
+        <div class="text">
+          <h2>Work</h2>
+        </div>
+      </div>
+
+      <div id="workGrid" class="projects">
+        <div id="project1" class="workGridArea">
+          <!--<a href="https://github.com/GabiDragh/Module1Challenge-Website-Optimisation">
+            <img src="./images/project1-Horiseon.png"/>
+          </a>--> 
+          <div id="heading">
+            <h4>HTML, CSS Layout and Box Model</h4>
+            <p>Horiseon Website Optimisation</p>
+          </div>
+        </div>
+
+        <div id="project2" class="workGridArea">
+          <div id="heading">
+            <h4>Working with CSS</h4>
+            <p>CSS Flexbox, Grid and Media Queries</p>
+          </div>
+        </div>
+      
+        <div id="project3" class="workGridArea">
+          <div id="heading">
+            <h4>UX and Advanced CSS</h4>
+            <p>UX/Bootstrap, Custom Webpages</p>
+          </div>
+        </div>
+
+        <div id="project4" class="workGridArea">
+          <div id="heading">
+            <h4>JavaScript Fundamentals</h4>
+            <p>Arrays and Iteration, RPS Game</p>
+          </div>
+        </div>
+
+        <div id="project5" class="workGridArea">
+          <div id="heading">
+            <h4>Intermediate JavaScript</h4>
+            <p>Objects, Functions, This Keyword</p>
+          </div>
+        </div>
+       </div>
+      
     </section>
 
     <!-- contact -->
     <section class="contact-column" id="Contact-Me"> <!--Id name changed to anchor the header section-->
-      <h3>Contact Me</h3>
+      <div class="contactme">
+        <div class="text">
+          <h2>Contact Me</h2>
+        </div>
+      </div>
+      
+      <nav class="contact-ul"> <!--navigation menu added-->
+        <ul> 
+          <li><a href="#">123456789</a></li> <!--placeholder phone number-->
+          <li><a href="#">gabidraghici@gmail.com</a></li> <!--email placeholder-->
+          <li><a href="https://github.com/GabiDragh/Module1Challenge-Website-Optimisation">GitHub</a></li> <!--Links to github-->
+          <li><a href="#">LinkedIn</a></li> <!--Placeholder for linkedin profile-->
+        </ul>
+      </nav>
     </section>
   </main>
 </body>

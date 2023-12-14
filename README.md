@@ -38,4 +38,4 @@ Text generator https://www.loremipzum.com/en/text-generator
 
 Link to deployed application https://gabidragh.github.io/Module2Challenge-Responsive-Portfolio/
 
-Screenshot ![Application Screenshot](screencapture-gabidragh-github-io-Module2Challenge-Responsive-Portfolio-2023-12-14-21_39_58.png "Application Screenshot")
+![Application Screenshot](screencapture-gabidragh-github-io-Module2Challenge-Responsive-Portfolio-2023-12-14-21_39_58.png?raw=true "Application Screenshot")

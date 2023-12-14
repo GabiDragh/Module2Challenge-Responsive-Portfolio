@@ -35,3 +35,7 @@ Flex code https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_two_colu
 Vertical line code sample https://www.w3docs.com/snippets/html/how-to-add-a-vertical-line-in-html.html 
 
 Text generator https://www.loremipzum.com/en/text-generator
+
+Link to deployed application https://gabidragh.github.io/Module2Challenge-Responsive-Portfolio/
+
+Screenshot ![Application Screenshot](screencapture-gabidragh-github-io-Module2Challenge-Responsive-Portfolio-2023-12-14-21_39_58.png "Application Screenshot")
